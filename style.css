@@ -17,7 +17,8 @@ body {
   header h1 {
     margin: 0;
   }
-  .BookBtn:hover{
+  #sellBookBtn:hover,
+  #buyBookBtn:hover{
     cursor:pointer;
     background-color: rgba(47, 159, 30, 0.642);
     border: #4CAF50;
@@ -105,13 +106,20 @@ body {
     cursor: pointer;
   }
 .sell-section {
-    background-image: url('sell-background.jpeg');
+    background-image: url('sell-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+   }
+   .buy-section {
+    background-image: url('sell-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fefefe;
    }
 .sell-section form {
     width: 80%;
